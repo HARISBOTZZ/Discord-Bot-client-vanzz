@@ -1,0 +1,32 @@
+{
+    "name": "livebot",
+    "version": "v1.1.5-alpha",
+    "description": "Discord for bots!",
+    "main": "start.js",
+    "scripts": {
+        "test": "electron .",
+        "start": "electron ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/SebOuellette/LiveBot.git"
+    },
+    "keywords": [
+        "discord",
+        "livebot",
+        "discord-livebot"
+    ],
+    "author": "SebOuellette",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/SebOuellette/LiveBot/issues"
+    },
+    "homepage": "https://github.com/SebOuellette/LiveBot#readme",
+    "dependencies": {
+        "discord.js": "^12.4.1",
+        "electron": "^18.3.5"
+    },
+    "devDependencies": {
+        "electron-packager": "^13.1.1"
+    }
+}
